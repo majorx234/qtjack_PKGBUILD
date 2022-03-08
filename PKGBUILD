@@ -1,13 +1,13 @@
 pkgname=qtjack
 pkgdesc="qt jack library to use jack realtime audio processing in QT projects"
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 arch=("x86_64")
 url="https://github.com/majorx234/qtjack"
 license=("GPLv3")
 depends=("qt5-base" "jack")
 makedepends=("qt5-base")
-source=('git+https://github.com/majorx234/qtjack.git')
+source=("git+https://github.com/majorx234/qtjack.git#tag=$pkgver")
 sha256sums=('SKIP')
 
 build() {
