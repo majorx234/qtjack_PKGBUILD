@@ -1,6 +1,6 @@
 pkgname=qtjack
 pkgdesc="qt jack library to use jack realtime audio processing in QT projects"
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 arch=("x86_64")
 url="https://github.com/majorx234/qtjack"
